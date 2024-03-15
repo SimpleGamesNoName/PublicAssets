@@ -25,4 +25,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: push to games
-        run: git push origin main
+        run: git push https://github.com/SimpleGamesNoName/Game.git main
