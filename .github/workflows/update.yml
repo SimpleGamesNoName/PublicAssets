@@ -22,7 +22,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: push to games
         run: |
-          git config --global user.name "${{ env.author }}"
+          git config --global user.name "${{ secreats.author }}"
           git config --global user.email 'thanonc@users.noreply.github.com'
           git commit -am "Automated report"
           git push
