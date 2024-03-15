@@ -22,8 +22,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: push to games
         run: |
-          git add test
           git config user.name 'Asset Bot'
           git config user.email '126615459+ThanonC@users.noreply.github.com'
-          git commit -m "Automated report"
+          git commit -a -m "Automated report"
           git push https://github.com/SimpleGamesNoName/Game.git
