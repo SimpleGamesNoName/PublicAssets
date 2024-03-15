@@ -24,6 +24,6 @@ jobs:
         run: |
           git config user.name 'Asset Bot'
           git config user.email '126615459+ThanonC@users.noreply.github.com'
-          git add README.md
+          git add test
           git commit -m "Automated report"
           git push https://github.com/SimpleGamesNoName/Game.git
