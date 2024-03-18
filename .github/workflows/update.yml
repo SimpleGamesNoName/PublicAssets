@@ -20,12 +20,12 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: push to games
+      - name: push to game-1
         run: |
           git config user.name 'Asset Bot'
           git config user.email '126615459+ThanonC@users.noreply.github.com'
-          git add test
-          git commit -m "first commit"
+          git add game-1-assets
+          git commit -m "Assets Transfer"
           git branch -M main
           git remote add origin https://github.com/SimpleGamesNoName/Game.git
           git push -u origin main
