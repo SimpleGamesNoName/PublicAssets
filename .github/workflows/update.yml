@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name 'Asset Bot'
           git config user.email '126615459+ThanonC@users.noreply.github.com'
-          git add game-1-assets
+          git add game-1-untitled
           git commit -m "Assets Transfer"
           git branch -M main
           git remote add origin https://github.com/SimpleGamesNoName/Game.git
